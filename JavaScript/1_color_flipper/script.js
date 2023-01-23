@@ -15,6 +15,7 @@ button.addEventListener('click', () => {
     // ASSIGN random color to the document
     const randomColor = getRandomColor();
     document.body.style.backgroundColor = randomColor;
+    color.textContent = randomColor;
     button.style.backgroundColor = randomColor;
 });
 
