@@ -16,7 +16,6 @@ button.addEventListener('click', () => {
     const randomColor = getRandomColor();
     document.body.style.backgroundColor = randomColor;
     button.style.backgroundColor = randomColor;
-    color.textContent = randomColor;
 });
 
 // FUNCTION to get a random color
