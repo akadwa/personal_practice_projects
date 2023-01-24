@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
 
+
+/* Universal Styles */
 * {
     font-family: 'Teko', sans-serif;
     box-sizing: border-box;
 }
 
+/* Body Styles */
 body {
     padding: 0;
     margin: 0;
 }
 
+/* Holding Container Styles */
 .container {
     display: flex;
     flex-direction: column;
@@ -24,6 +28,7 @@ body {
     border-radius: 15px;
 }
 
+/* Text Styles */
 h1 {
     font-size: 5rem;
     margin: 0;
@@ -33,6 +38,7 @@ span {
     font-size: 4.5rem;
 }
 
+/* Button Styles */
 .buttonContainer {
     padding: 20px 0 0;
 }
